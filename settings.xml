@@ -1,0 +1,16 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+  <mirrors>
+    <mirror>
+      <id>central</id>
+      <name>Maven Central</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+    <mirror>
+      <id>jenkins</id>
+      <name>Jenkins Public Repo</name>
+      <url>https://repo.jenkins-ci.org/public/</url>
+      <mirrorOf>jenkins-public</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
